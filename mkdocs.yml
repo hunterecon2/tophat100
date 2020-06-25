@@ -1,0 +1,8 @@
+site_name: TopHat drafts
+nav:
+    - Home: index.md
+    - About: About.md
+    
+markdown_extensions:
+  - admonition
+
