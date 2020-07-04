@@ -6,13 +6,13 @@ nav:
       - Home: index.md
       - About: About.md
     - Content:
-       - Geogebra: units/geogebra-examples.md
+       - Geogebra: units/geogebra_examples.md
        - Power: units/Market-Power.md
 
 
 # to install theme `pip install mkdocs-material`
-theme:
-    name: material  
+#theme:
+#    name: material  
 
 
 # other settings ...
