@@ -11,8 +11,8 @@
   | Topic | drafts                                          | Comments |
   | ----- | ----------------------------------------------- | -------- |
   | 1     | [Intro](units/Intro.md)                         |          |
-  | 2     | [Geogebra Examples](units\geogebra_examples.md) | See [GB Book](https://www.geogebra.org/m/zcztftzz)       |
-  | 3     | [Market Power](units\Market-Power.md)           |          |
+  | 2     | [Geogebra Examples](units/geogebra_examples.md) | See [GB Book](https://www.geogebra.org/m/zcztftzz)       |
+  | 3     | [Market Power](units/Market-Power.md)           |          |
 
   
 
