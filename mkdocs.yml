@@ -1,8 +1,31 @@
 site_name: TopHat drafts
+site_description: Materials for Eco 100 course.
+site_author: Hunter College Economics team
 nav:
-    - Home: index.md
-    - About: About.md
-    
+    - Top Stuff:
+      - Home: index.md
+      - About: About.md
+    - Content:
+       - Geogebra: units\geogebra-examples.md
+       - Power: units\Market-Power.md
+
+
+# to install theme `pip install mkdocs-material`
+theme:
+    name: material  
+
+
+# other settings ...
+
 markdown_extensions:
-  - admonition
+   # other extensions ...
+   - pymdownx.arithmatex
+
+# other settings ...
+
+extra_javascript:
+  # other extra java script
+  - mathjax-config.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 

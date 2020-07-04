@@ -1,28 +1,14 @@
-# TopHat drafts for 100
+# 
 
 ---
 
+# 
 
+# TopHat drafts for 100
 
-## eco100 (Conning)
+We are preparing text plus multimedia materials for a TopHat course in economics.  Many early drafts of these materials are written in markdown and then converted via [mkdocs](https://www.mkdocs.org/) into the static-html site you see at [hunterecon2.github.io/tophat100/](https://hunterecon2.github.io/tophat100/).  
 
-- Shared [TopHat course](https://app.tophat.com/e/929543)
-
-- [Schedule](units/outline.md)
-
-  | Topic | drafts                                          | Comments |
-  | ----- | ----------------------------------------------- | -------- |
-  | 1     | [Intro](units/Intro.md)                         |          |
-  | 2     | [Geogebra Examples](units\geogebra_examples.md) |          |
-  | 3     |                                                 |          |
-
-  
-
-## useful stuff
-
-- [topic list for each professor](https://docs.google.com/spreadsheets/d/1t6EhF2RCAj73H9Nlt6SrKFCqrWypK2j6mnpLGkFrEN0/edit?usp=sharing) (google sheet)
-- Why [markdown tools](useful/draft_tools.md) work to draft TopHat Pages.
-- Note on [Geogebra Graphing](useful/Geogebra Graphing.md)
+The required Note that `mkdocs gh-deploy` comma
 
 
 

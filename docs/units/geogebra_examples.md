@@ -1,6 +1,6 @@
 # Geogebra Examples
 
-
+This is a markdown file embedding different elements.  
 
 ### Supply and Demand diagrams
 
