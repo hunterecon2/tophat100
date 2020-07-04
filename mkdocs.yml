@@ -20,9 +20,10 @@ theme:
 markdown_extensions:
    - pymdownx.arithmatex
   
-plugins:
-  - autolinks 
-# other settings ...
+#plugins:
+# - search
+# - autolinks 
+
 
 extra_javascript:
   # other extra java script
