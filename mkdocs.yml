@@ -11,13 +11,14 @@ nav:
 
 
 # to install theme `pip install mkdocs-material`
-#theme:
-#    name: material  
+theme:
+    name: material  
 
 
 # other settings ...
 
 markdown_extensions:
+   - admonition
    - pymdownx.arithmatex
   
 #plugins:
