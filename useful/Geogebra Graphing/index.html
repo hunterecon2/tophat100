@@ -1,0 +1,543 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.4.0">
+    
+    
+      
+        <title>Geogebra Graphing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fe0cca5b.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#geogebra-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="TopHat drafts" class="md-header-nav__button md-logo" aria-label="TopHat drafts">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            TopHat drafts
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Geogebra Graphing
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TopHat drafts" class="md-nav__button md-logo" aria-label="TopHat drafts">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    TopHat drafts
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Top Stuff
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Top Stuff" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Top Stuff
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../About/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Content
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Content" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Content
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../units/geogebra-examples/" title="Geogebra" class="md-nav__link">
+      Geogebra
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../units/Market-Power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#geogebraorg" class="md-nav__link">
+    Geogebra.org
+  </a>
+  
+    <nav class="md-nav" aria-label="Geogebra.org">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortcuts" class="md-nav__link">
+    Shortcuts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#different-views" class="md-nav__link">
+    Different views
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#show-on-condition" class="md-nav__link">
+    Show on condition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lines-and-segments" class="md-nav__link">
+    Lines and Segments
+  </a>
+  
+    <nav class="md-nav" aria-label="Lines and Segments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#axes" class="md-nav__link">
+    Axes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-right-click-on-axes-and-settings-got-to-xaxis-and-choose-positive-direction-only" class="md-nav__link">
+    -  Right click on axes and settings. got to xAxis and choose 'Positive Direction Only'
+  </a>
+  
+    <nav class="md-nav" aria-label="-  Right click on axes and settings. got to xAxis and choose 'Positive Direction Only'">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grid" class="md-nav__link">
+    Grid
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tables" class="md-nav__link">
+    Tables
+  </a>
+  
+    <nav class="md-nav" aria-label="Tables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resizing-embed" class="md-nav__link">
+    Resizing Embed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="geogebra-guide">Geogebra Guide</h1>
+<p><a href="https://www.geogebra.org/">Geogebra</a> is a free interactive math and graphing tool for exploring graphs and models, like a modern graphing calculator.  We use geogebra throughout the course to create and manipulate charts and model simulations. Several interactive questions will use geogebra. </p>
+<p>Geogebra is easy to learn and use, so much so that it is widely used in elementary, middle- and high-school teaching.  </p>
+<p>What follows below is a quick guide to creating Geogebra activities.  It's probably not the best first tutorial since a lot of what follows are just notes on on things useful for the course, some of them pretty technical or focused on the aesthetic. </p>
+<h2 id="geogebraorg">Geogebra.org</h2>
+<p>The main site is at <a href="https://www.geogebra.org/">geogebra.org</a>. If you don't have an account already click the <code>Sign in</code> link and use an existing Google, Facebook or other account, or providing an email and password. This will allow you to save and retrieve projects for later reuse. </p>
+<p>There are now different <a href="https://www.geogebra.org/m/vd6UC685#material/shfwqcpr">versions</a> of geogebra either as online or downloaded apps. We will be using the Classic version available at <a href="https://www.geogebra.org/classic">geogebra.org/classic</a> </p>
+<ul>
+<li>Modify n existing app by </li>
+<li>either linking directly to its URL if you have one (e.g. this one on <a href="https://www.geogebra.org/m/yhrp4fy4">supply and demand</a>)</li>
+<li>or going to geogebra.org and then search for classroom resources and search for one you want to modify.</li>
+<li>In either case once you've opened the resource, click on the snowman (three vertical dots) in the top right corner and choose 'Open in App'</li>
+<li>There are a few ways to get started</li>
+<li>Go to https://www.geogebra.org/classic to start a new geogebra app. from scratch  </li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li></li>
+<li>
+<p>login from geogebra.org and then click on the icon for your profile in the top right. That takes you to a page where you can  and then click the '+Create' button and choose 'Activity' to start a new project, or go to an existing GB app like this one [on </p>
+</li>
+<li>
+<p>click on axis and choose xAxis positive direction only </p>
+</li>
+<li>The <code>?embed</code> option seems to not work. </li>
+</ul>
+<h3 id="shortcuts">Shortcuts</h3>
+<ul>
+<li>Ctrl-Shift-a will hide the left Algebra menu (which for diagrams you may want to hide.)</li>
+</ul>
+<h3 id="different-views">Different views</h3>
+<ul>
+<li>Profile (if logged in) https://www.geogebra.org/u/jonathan.conning</li>
+<li>https://www.geogebra.org/classic/yhrp4fy4</li>
+</ul>
+<h2 id="show-on-condition">Show on condition</h2>
+<p>advanced settings. Condition to show (e.g. a&gt;0)</p>
+<h2 id="lines-and-segments">Lines and Segments</h2>
+<ul>
+<li>From Tools choose Segment or Lines</li>
+<li>Segment put a point on X axis and a point on Y axis, from then on will stick to those axes.</li>
+<li>under settings uncheck 'Show label'</li>
+</ul>
+<h3 id="settings">Settings</h3>
+<p>Click on Gear</p>
+<ul>
+<li>Zoom to fit</li>
+<li>click the gear, show grid, major grid lines.</li>
+</ul>
+<h3 id="axes">Axes</h3>
+<h2 id="-right-click-on-axes-and-settings-got-to-xaxis-and-choose-positive-direction-only">-  Right click on axes and settings. got to xAxis and choose 'Positive Direction Only'</h2>
+<h3 id="grid">Grid</h3>
+<ul>
+<li>if choose </li>
+<li>From Basic tab you can Lock the min and max.  Set say -0.5 to 10 and then also under xAxis choose 'positive direction only'</li>
+</ul>
+<p>Qe=(x(E),0)</p>
+<h2 id="tables">Tables</h2>
+<h3 id="resizing-embed">Resizing Embed</h3>
+<ul>
+<li>Once you've saved your GB activity you'll want to change settings on how it will be displayed inside an iframe embed.  For this you'll need to go back to your profile where you will see all your past saved or visited activities.  </li>
+<li>Click on the snowman to edit the activity you want. Like this:</li>
+</ul>
+<p><img src="media/image-20200625004745223.png" alt="image-20200625004745223" style="zoom:50%;" /></p>
+<ul>
+<li>Now hover over the displayed activity and click on the edit pencil <img alt="image-20200625004914137" src="../media/image-20200625004914137.png" /></li>
+<li>scroll down and click advance settings.  </li>
+<li>Here you can adjust width and height and 'edit the applet' button.  Inside that you can adjust width and heights by selecting and dragging the edges. .</li>
+<li>You can then click on share button to get very complete iframe html which will size things right. </li>
+</ul>
+<iframe scrolling="no" title="Simple Diagrams" s
+
+rc="https://www.geogebra.org/material/iframe/id/yhrp4fy4/width/1000/height/657/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1000px" height="657px" style="border:0px;"> </iframe>
+
+<h1 id="with-the-embed-code">With the <code>?embed</code> code</h1>
+<p>This is normal size text</p>
+<iframe src="https://www.geogebra.org/classic/z48jempr?embed" width="80" height="400" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+<h1 id="without-the-embedcode">Without the ?embed`code</h1>
+<p>But notice the large size of the box.</p>
+<iframe src="https://www.geogebra.org/classic/z48jempr" width="800" height="500" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+<p>A</p>
+<pre><code class="html">&lt;iframe src=&quot;https://www.geogebra.org/m/Qqe5yTJ5&quot; width=&quot;800&quot; height=&quot;400&quot; allowfullscreen style=&quot;border: 1px solid #e4e4e4;border-radius: 4px;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<iframe src="https://www.geogebra.org/m/Qqe5yTJ5"></iframe>
+
+<iframe src="https://www.geogebra.org/m/Qqe5yTJ5" width="800" height="400" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+<h3 id="_1"></h3>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.b39636ac.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../mathjax-config.js"></script>
+      
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+    
+  </body>
+</html>
