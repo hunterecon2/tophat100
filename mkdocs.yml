@@ -21,9 +21,9 @@ markdown_extensions:
    - admonition
    - pymdownx.arithmatex
   
-#plugins:
-# - search
-# - autolinks 
+plugins:
+ - search
+ - mkpdfs
 
 
 extra_javascript:
