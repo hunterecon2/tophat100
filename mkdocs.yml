@@ -1,6 +1,9 @@
 site_name: TopHat drafts
 site_description: Materials for Eco 100 course.
 site_author: Hunter College Economics team
+repo_name: TopHat Drafts for 100
+repo_url: https://hunterecon2.github.io/tophat100/
+
 nav:
     - Top Stuff:
       - Home: index.md
@@ -23,7 +26,7 @@ markdown_extensions:
   
 plugins:
  - search
- - mkpdfs
+ #- mkpdfs
 
 
 extra_javascript:
